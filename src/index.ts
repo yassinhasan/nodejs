@@ -1,6 +1,3 @@
-import { rootPath } from "@mongez/node";
+import startApplication from "./core/application";
 
-// get the absolute path to the root of the project for the given path
-const root = rootPath("");
-
-console.log("Project has been started in:", root);
+startApplication();
